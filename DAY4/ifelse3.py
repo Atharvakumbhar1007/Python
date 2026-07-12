@@ -7,3 +7,8 @@ if num % 5 == 0:
     print(f"Number is Divisible by 5")
 else:
     print(f"Number is not Divisible by 5")
+    
+
+    # WAP to accept 2 number from user and check greatest from both
+    
+    
