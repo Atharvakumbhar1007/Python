@@ -9,6 +9,8 @@ year % 4 == 0
 2. Century years (100,200,..1800,2000)
 a.Not all century are leap year -> Not divisible by 100
 -> year % 100 != 0
+b.Century years that repeats after every 400 year are leap year
+-> 
 '''
 
 year = int(input("Enter a year: "))
