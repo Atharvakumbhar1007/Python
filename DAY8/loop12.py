@@ -12,3 +12,15 @@ elif n > 0:
 
     print("Sum of numbers is:", sum)
     
+    '''
+    # WAP to print sum of 1 to n
+
+n = int(input("Enter the number: "))
+
+if n < 0:
+    print("Enter a positive number")
+else:
+    sum = n * (n + 1) // 2
+    print("Sum of numbers is:", sum)
+    '''
+    
