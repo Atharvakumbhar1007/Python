@@ -4,15 +4,20 @@
 n1 = int(input("Enter number 1: "))
 n2 = int(input("Enter number 2: "))
 
-operator = input("Enter operator [+,-,*,/]")
+operator = input("Enter operator [+, -, *, /]: ")
 
 if operator == "+":
     print(f"{n1} + {n2} = {n1+n2}")
+
 elif operator == "-":
     print(f"{n1} - {n2} = {n1-n2}")
+
 elif operator == "*":
     print(f"{n1} * {n2} = {n1*n2}")
 elif operator == "/":
-    print(f"{n1} / {n2} = {n1/n2}")
+    if n2 == 0:
+        print("Cannot Divide By Zero")
+    else:
+        print(f"{n1} / {n2} = {n1/n2}")
 else:
-    print("Invaid Operator pls enter valid operator")
+    print("Invalid Operator pls select from above range")
